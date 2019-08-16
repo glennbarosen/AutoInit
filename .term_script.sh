@@ -3,7 +3,7 @@
 function create() {
     cd
     python3 create.py $1
-    cd /Users/glennbarosen/Dev/$1 # Change "/Users/YourName/Dev/" to your path
+    cd /Users/YourName/Dev/$1 # Change "/Users/YourName/Dev/" to your path
     echo "# $1" >> README.md
     git init
     git add README.md

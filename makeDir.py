@@ -5,7 +5,7 @@ import sys
 username = ""  # Insert Github username here
 password = ""  # Insert Github password here
 
-directory = "/Users/glennbarosen/Dev/"  # Insert path to your projects here
+directory = ""  # Insert path to your projects here
 # Example: /Users/YourName/Dev/
 
 
