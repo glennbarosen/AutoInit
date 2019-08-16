@@ -11,10 +11,10 @@ directory = ""  # Insert path to your projects here
 
 def makeDir():
     projectName = str(sys.argv[1])
-    os.makedirs(directory + str(sys.argv[1]))
+    os.makedirs(directory + projectName)
     gUser = Github(username, password).get_user()
-    gRepo = gUser.create_repo(str(sys.argv[1]))
-    print("Created repo {}".format(sys.argv[1]))
+    gRepo = gUser.create_repo(projectName)
+    print("Created repo {}".format(projectName))
 
 
 if __name__ == "__main__":
