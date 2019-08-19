@@ -9,7 +9,7 @@ directory = ""  # Insert path to your projects here
 # Example: /Users/YourName/Dev/
 
 
-def makeDir():
+def create():
     projectName = str(sys.argv[1])
     os.makedirs(directory + projectName)
     gUser = Github(username, password).get_user()
@@ -18,4 +18,4 @@ def makeDir():
 
 
 if __name__ == "__main__":
-    makeDir()
+    create()
